@@ -14,7 +14,7 @@ const Navbar = () => {
 	window.addEventListener("scroll", chnageBackground);
 	return (
 		<nav className={nav ? "nav active" : "nav"}>
-			<Link to='#' className='logo'>
+			<Link to='main' className='logo'>
 				<img src={logo} alt='' />
 			</Link>
 			<input className='menu-btn' type='checkbox' id='menu-btn' />
