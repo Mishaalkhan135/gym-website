@@ -12,9 +12,7 @@ const Header = () => {
 					Build Your Body And Fitness With Professional Touch
 				</p>
 				<div className='header-btns'>
-					<a href='#' className='header-btn'>
-						JOIN US
-					</a>
+					<button className='header-btn'>JOIN US</button>
 				</div>
 			</div>
 		</div>

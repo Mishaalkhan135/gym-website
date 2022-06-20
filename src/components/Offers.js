@@ -12,9 +12,7 @@ const Offers = () => {
 					Eius, nulla?
 				</p>
 				<div className='pr-btns'>
-					<a href='#' className='pr-btn'>
-						JOIN NOW
-					</a>
+					<button className='pr-btn'>JOIN NOW</button>
 				</div>
 			</div>
 		</div>

@@ -23,19 +23,29 @@ const Navbar = () => {
 			</label>
 			<ul className='menu'>
 				<li>
-					<Link to='main'>HEADER</Link>
+					<Link spy={true} to='main'>
+						HEADER
+					</Link>
 				</li>
 				<li>
-					<Link to='features'>FEATURES</Link>
+					<Link spy={true} to='features'>
+						FEATURES
+					</Link>
 				</li>
 				<li>
-					<Link to='offer'>OFFER</Link>
+					<Link spy={true} to='offer'>
+						OFFER
+					</Link>
 				</li>
 				<li>
-					<Link to='about'>ABOUT</Link>
+					<Link spy={true} to='about'>
+						ABOUT
+					</Link>
 				</li>
 				<li>
-					<Link to='contact'>CONTACT</Link>
+					<Link spy={true} to='contact'>
+						CONTACT
+					</Link>
 				</li>
 			</ul>
 		</nav>
